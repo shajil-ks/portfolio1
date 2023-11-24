@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/0187959fbe.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Capture.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Web Developer</p>
+            <h1>Hi, I'm <span>S</span>hajil <span>S</span>reenivasan</h1>
+        </div>
+    </div>
+ </div>
+ <!--About section-->
+  
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/black-modified.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hey! My name is Shajil. I am a web full stack developer based in Kerala.
+                    I have been working as a freelance designer and front-end developer since 2020. I’ve always been someone who has both a creative and a logical side. When I discovered web design in college, I realized it would be the perfect fit. I could use my creative side to design and my logical side to code. As a bonus, being both designer and developer allows me to make sure no detail is lost in translation</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')" >Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul> 
+                        <li><span>Web Development</span><br>Static and Dynamic Websites</li>
+                        <li><span>App Development</span><br>Building Android/ios App</li>
+                    </ul>
+                    
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Web Development</span><br>3 years of Experience</li>
+                        <li><span>App Development</span><br>1 year of Experience</li>
+                    </ul>
+                    
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        
+                        <li>B.tech in Electrical and Electronics engineering</li>
+                        <li>MERN stack self learner</li>
+                    </ul>
+                    
+                </div>
+
+                <div class="tab-contents">
+                    <ul>
+                        <li><span>UI? UX</span><br>Designing Web/App interface</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/ios App</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------services-------->
+ 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2> Static Web Designing </h2>
+                <p>Writing well designed, testable, efficient code by using best software development practices</p>
+                <p>Creating website layout/user interfaces by using standard HTML/CSS practices</p>
+                <p>Integrating data from various back-end services and databases</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-uikit"></i>
+                <h2>Dynamic web Designing </h2>
+                <p>Writing well designed, testable, efficient code by using best software development practices</p>
+                <p>Creating website layout/user interfaces by using standard HTML/CSS practices</p>
+                <p>Integrating data from various back-end services and databases</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h2> App Designing </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem harum earum a quae dolores ducimus!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------services-------->
+
+
+
+<!------portfolio-------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/pro1.jpg">
+                <div class="layer"> 
+                    <h3>YouTube Clone</h3>
+                    <p>YouTube clone using HTML,CSS and media Queries</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pro2.jpg">
+                <div class="layer">
+                    <h3>NetFlix Clone</h3>
+                    <p>NetFlix Clone using HTML,CSS and media Queries</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pro3.jpg">
+                <div class="layer">
+                    <h3>Coffe Shop website</h3>
+                    <p>Public website using HTML,CSS,Bootstrap and Media Queries,fully responsive website</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!------portfolio-------->
+
+
+
+
+<!------contact-------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shajilks@ymail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91 9746817128</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class=" btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit" class="btn3" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+     <div class="copyright">
+        &copy;Copyright <strong><span>shajil </span></strong>All Rights reserved
+     </div>
+
+</div>
+
+
+
+
+
+<!------contact-------->
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links")
+    var tabcontents=document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+function openmenu() {
+    sidemenu.style.right="0";
+        
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+
+
+</script>
+<script>
+const scriptURL ="https://script.google.com/macros/s/AKfycbzv3h6uu4okWcCzbTsz2gvdvxQ1kV7TCFPkN3-xYkw2sI48fi_Cmnku_PvRbDybXIMzCw/exec";
+ const form = document.forms["submit-to-google-sheet"];
+
+ form.addEventListener("submit", (e) => {e.preventDefault();
+   fetch(scriptURL, { method: "POST", body: new FormData(form) })
+     .then((response) => {
+       msg.innerHTML = "Information Succesfullly Sent!!";
+       setTimeout(function () {
+         msg.innerHTML = "";
+       }, 3000);
+       form.reset();
+     })
+     .catch((error) => console.error("Error!", error.message));
+ });
+
+</script>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
